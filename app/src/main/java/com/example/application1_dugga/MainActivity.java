@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "The weather is awesome in summer! (sometimes)", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "The weather can awesome in summer! (sometimes)", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
